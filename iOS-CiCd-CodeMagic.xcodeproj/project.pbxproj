@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FEB9890E2DA48DEE000DEB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEB988EF2DA48DEA000DEB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB988F62DA48DEA000DEB2F;
+			remoteInfo = "iOS-CiCd-CodeMagic";
+		};
+		FEB989182DA48DEE000DEB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEB988EF2DA48DEA000DEB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB988F62DA48DEA000DEB2F;
+			remoteInfo = "iOS-CiCd-CodeMagic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEB988F72DA48DEA000DEB2F /* iOS-CiCd-CodeMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-CiCd-CodeMagic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB9890D2DA48DEE000DEB2F /* iOS-CiCd-CodeMagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-CiCd-CodeMagicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB989172DA48DEE000DEB2F /* iOS-CiCd-CodeMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-CiCd-CodeMagicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FEB9891F2DA48DEE000DEB2F /* Exceptions for "iOS-CiCd-CodeMagic" folder in "iOS-CiCd-CodeMagic" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FEB988F62DA48DEA000DEB2F /* iOS-CiCd-CodeMagic */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FEB988F92DA48DEA000DEB2F /* iOS-CiCd-CodeMagic */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FEB9891F2DA48DEE000DEB2F /* Exceptions for "iOS-CiCd-CodeMagic" folder in "iOS-CiCd-CodeMagic" target */,
+			);
+			path = "iOS-CiCd-CodeMagic";
+			sourceTree = "<group>";
+		};
+		FEB989102DA48DEE000DEB2F /* iOS-CiCd-CodeMagicTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS-CiCd-CodeMagicTests";
+			sourceTree = "<group>";
+		};
+		FEB9891A2DA48DEE000DEB2F /* iOS-CiCd-CodeMagicUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS-CiCd-CodeMagicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEB988F42DA48DEA000DEB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB9890A2DA48DEE000DEB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB989142DA48DEE000DEB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEB988EE2DA48DEA000DEB2F = {
+			isa = PBXGroup;
+			children = (
+				FEB988F92DA48DEA000DEB2F /* iOS-CiCd-CodeMagic */,
+				FEB989102DA48DEE000DEB2F /* iOS-CiCd-CodeMagicTests */,
+				FEB9891A2DA48DEE000DEB2F /* iOS-CiCd-CodeMagicUITests */,
+				FEB988F82DA48DEA000DEB2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEB988F82DA48DEA000DEB2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEB988F72DA48DEA000DEB2F /* iOS-CiCd-CodeMagic.app */,
+				FEB9890D2DA48DEE000DEB2F /* iOS-CiCd-CodeMagicTests.xctest */,
+				FEB989172DA48DEE000DEB2F /* iOS-CiCd-CodeMagicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEB988F62DA48DEA000DEB2F /* iOS-CiCd-CodeMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB989202DA48DEE000DEB2F /* Build configuration list for PBXNativeTarget "iOS-CiCd-CodeMagic" */;
+			buildPhases = (
+				FEB988F32DA48DEA000DEB2F /* Sources */,
+				FEB988F42DA48DEA000DEB2F /* Frameworks */,
+				FEB988F52DA48DEA000DEB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FEB988F92DA48DEA000DEB2F /* iOS-CiCd-CodeMagic */,
+			);
+			name = "iOS-CiCd-CodeMagic";
+			packageProductDependencies = (
+			);
+			productName = "iOS-CiCd-CodeMagic";
+			productReference = FEB988F72DA48DEA000DEB2F /* iOS-CiCd-CodeMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEB9890C2DA48DEE000DEB2F /* iOS-CiCd-CodeMagicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB989252DA48DEE000DEB2F /* Build configuration list for PBXNativeTarget "iOS-CiCd-CodeMagicTests" */;
+			buildPhases = (
+				FEB989092DA48DEE000DEB2F /* Sources */,
+				FEB9890A2DA48DEE000DEB2F /* Frameworks */,
+				FEB9890B2DA48DEE000DEB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB9890F2DA48DEE000DEB2F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FEB989102DA48DEE000DEB2F /* iOS-CiCd-CodeMagicTests */,
+			);
+			name = "iOS-CiCd-CodeMagicTests";
+			packageProductDependencies = (
+			);
+			productName = "iOS-CiCd-CodeMagicTests";
+			productReference = FEB9890D2DA48DEE000DEB2F /* iOS-CiCd-CodeMagicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEB989162DA48DEE000DEB2F /* iOS-CiCd-CodeMagicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB989282DA48DEE000DEB2F /* Build configuration list for PBXNativeTarget "iOS-CiCd-CodeMagicUITests" */;
+			buildPhases = (
+				FEB989132DA48DEE000DEB2F /* Sources */,
+				FEB989142DA48DEE000DEB2F /* Frameworks */,
+				FEB989152DA48DEE000DEB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB989192DA48DEE000DEB2F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FEB9891A2DA48DEE000DEB2F /* iOS-CiCd-CodeMagicUITests */,
+			);
+			name = "iOS-CiCd-CodeMagicUITests";
+			packageProductDependencies = (
+			);
+			productName = "iOS-CiCd-CodeMagicUITests";
+			productReference = FEB989172DA48DEE000DEB2F /* iOS-CiCd-CodeMagicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEB988EF2DA48DEA000DEB2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FEB988F62DA48DEA000DEB2F = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FEB9890C2DA48DEE000DEB2F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FEB988F62DA48DEA000DEB2F;
+					};
+					FEB989162DA48DEE000DEB2F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FEB988F62DA48DEA000DEB2F;
+					};
+				};
+			};
+			buildConfigurationList = FEB988F22DA48DEA000DEB2F /* Build configuration list for PBXProject "iOS-CiCd-CodeMagic" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEB988EE2DA48DEA000DEB2F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FEB988F82DA48DEA000DEB2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEB988F62DA48DEA000DEB2F /* iOS-CiCd-CodeMagic */,
+				FEB9890C2DA48DEE000DEB2F /* iOS-CiCd-CodeMagicTests */,
+				FEB989162DA48DEE000DEB2F /* iOS-CiCd-CodeMagicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEB988F52DA48DEA000DEB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB9890B2DA48DEE000DEB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB989152DA48DEE000DEB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEB988F32DA48DEA000DEB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB989092DA48DEE000DEB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB989132DA48DEE000DEB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEB9890F2DA48DEE000DEB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB988F62DA48DEA000DEB2F /* iOS-CiCd-CodeMagic */;
+			targetProxy = FEB9890E2DA48DEE000DEB2F /* PBXContainerItemProxy */;
+		};
+		FEB989192DA48DEE000DEB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB988F62DA48DEA000DEB2F /* iOS-CiCd-CodeMagic */;
+			targetProxy = FEB989182DA48DEE000DEB2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEB989212DA48DEE000DEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NJVB322UA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-CiCd-CodeMagic/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prashuk.iOS-CiCd-CodeMagic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEB989222DA48DEE000DEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NJVB322UA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-CiCd-CodeMagic/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prashuk.iOS-CiCd-CodeMagic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEB989232DA48DEE000DEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NJVB322UA6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEB989242DA48DEE000DEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NJVB322UA6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEB989262DA48DEE000DEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NJVB322UA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prashuk.iOS-CiCd-CodeMagicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-CiCd-CodeMagic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-CiCd-CodeMagic";
+			};
+			name = Debug;
+		};
+		FEB989272DA48DEE000DEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NJVB322UA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prashuk.iOS-CiCd-CodeMagicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-CiCd-CodeMagic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-CiCd-CodeMagic";
+			};
+			name = Release;
+		};
+		FEB989292DA48DEE000DEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NJVB322UA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prashuk.iOS-CiCd-CodeMagicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-CiCd-CodeMagic";
+			};
+			name = Debug;
+		};
+		FEB9892A2DA48DEE000DEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NJVB322UA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prashuk.iOS-CiCd-CodeMagicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-CiCd-CodeMagic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEB988F22DA48DEA000DEB2F /* Build configuration list for PBXProject "iOS-CiCd-CodeMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB989232DA48DEE000DEB2F /* Debug */,
+				FEB989242DA48DEE000DEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB989202DA48DEE000DEB2F /* Build configuration list for PBXNativeTarget "iOS-CiCd-CodeMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB989212DA48DEE000DEB2F /* Debug */,
+				FEB989222DA48DEE000DEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB989252DA48DEE000DEB2F /* Build configuration list for PBXNativeTarget "iOS-CiCd-CodeMagicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB989262DA48DEE000DEB2F /* Debug */,
+				FEB989272DA48DEE000DEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB989282DA48DEE000DEB2F /* Build configuration list for PBXNativeTarget "iOS-CiCd-CodeMagicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB989292DA48DEE000DEB2F /* Debug */,
+				FEB9892A2DA48DEE000DEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEB988EF2DA48DEA000DEB2F /* Project object */;
+}
